@@ -1,0 +1,25 @@
+server:
+  #debug or release
+  runMode: 'debug'
+  httpPort: 8080
+
+postgresql:
+  user: 'postgres'
+  password: 'postgres'
+  host: '127.0.0.1'
+  port: 5432
+  name: 'postgres'
+
+redis:
+  db: 0
+  addr: '127.0.0.1:6379'
+  password: ''
+
+runtime:
+  log:
+    logRootPath: '/runtime/logs/'
+    disableTimestamp: false
+    timestampFormat: '2006-01-02 15:04:05'
+
+
+
